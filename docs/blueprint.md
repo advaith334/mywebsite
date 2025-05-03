@@ -1,4 +1,4 @@
-# **App Name**: My Digital Stage
+# **App Name**: Advaith
 
 ## Core Features:
 

@@ -18,7 +18,7 @@ export default function Home() {
           data-ai-hint="profile picture"
         />
         <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-          Welcome to My Digital Stage
+          Hi, I am Advaith!
         </h1>
         <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-8">
           Hi, I'm [Your Name], a passionate [Your Profession/Role] exploring the intersection of technology and creativity. Dive into my world of projects, experiences, and thoughts.

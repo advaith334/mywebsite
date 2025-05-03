@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable}`}>
+    <html lang="en" className={`${GeistSans.variable} dark`}> {/* Added dark class */}
       {/* Removed GeistMono from className as it's no longer imported */}
       {/* <body className="flex min-h-screen flex-col antialiased ${GeistMono.variable}"> */}
        <body className="flex min-h-screen flex-col antialiased">

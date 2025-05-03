@@ -58,7 +58,6 @@ export function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <Star className="h-6 w-6 text-primary" /> {/* Changed Stage to Star */}
-                <span className="font-bold">My Digital Stage</span>
               </Link>
               <div className="flex flex-col space-y-3">
                 {navItems.map((item) => (
