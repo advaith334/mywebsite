@@ -3,25 +3,27 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, User, Mic, ArrowRight } from "lucide-react";
 import Image from 'next/image';
 import Link from "next/link";
+import { spacer } from "@/components/layout/spacer";
 
 export default function Home() {
+  // output
   return (
     <div className="container py-12 md:py-20">
       {/* Hero Section */}
       <section className="text-center mb-16 md:mb-24">
         <Image
-          src="https://picsum.photos/150/150"
-          alt="Profile Picture"
-          width={150}
-          height={150}
-          className="rounded-full mx-auto mb-6 shadow-lg"
+          src={"/images/Advaith_image_2.jpg"}
+          alt="Background Picture"
+          width={1500}
+          height={400}
+          className="mx-auto mb-6 shadow-lg"
           data-ai-hint="profile picture"
         />
         <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           Hi, I am Advaith!
         </h1>
         <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-8">
-          Hi, I'm [Your Name], a passionate [Your Profession/Role] exploring the intersection of technology and creativity. Dive into my world of projects, experiences, and thoughts.
+          Welcome to my website?
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Button asChild size="lg">
