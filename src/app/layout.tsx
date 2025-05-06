@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
-// Removed GeistMono import as it's not used and causes build issues if not installed
-// import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
@@ -12,8 +10,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${GeistSans.variable} dark`}> {/* Added dark class */}
-      {/* Removed GeistMono from className as it's no longer imported */}
-      {/* <body className="flex min-h-screen flex-col antialiased ${GeistMono.variable}"> */}
+
        <body className="flex min-h-screen flex-col antialiased">
         <main className="flex-1">{children}</main>
         <Toaster />

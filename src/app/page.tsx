@@ -3,7 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, User, Mic, ArrowRight } from "lucide-react";
 import Image from 'next/image';
 import Link from "next/link";
-import { spacer } from "@/components/layout/spacer";
+import Spacer from "@/components/ui/spacer";
+import TextAnimation from "@/components/ui/txt-animation";
 
 export default function Home() {
   // output
@@ -19,9 +20,11 @@ export default function Home() {
           className="mx-auto mb-6 shadow-lg"
           data-ai-hint="profile picture"
         />
-        <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-          Hi, I am Advaith!
-        </h1>
+        < Spacer size="50px" />
+        {/* <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+          Hi, I am Advaith.
+        </h1> */}
+        < TextAnimation />
         <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-8">
           Welcome to my website?
         </p>
